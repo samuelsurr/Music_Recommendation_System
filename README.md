@@ -1,6 +1,6 @@
 # Music Recommendation System with Reinforcement Learning
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.11.9](https://img.shields.io/badge/Python-3.11.9-blue.svg)](https://www.python.org/downloads/release/python-3119/) [![TensorFlow 2.18](https://img.shields.io/badge/TensorFlow-2.18-%23FF6F00.svg)](https://www.tensorflow.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains a reinforcement learning-based music recommendation system for a music application. The system aims to learn user preferences and provide personalized song recommendations.
 
@@ -11,9 +11,11 @@ This repository contains a reinforcement learning-based music recommendation sys
     -   [Prerequisites](#prerequisites)
     -   [Installation](#installation)
 -   [Reinforcement Learning Approach](#reinforcement-learning-approach)
+-   [Project Status](#project-status)
+-   [Issues](#known-issues)
 -   [Contributing](#contributing)
 -   [License](#license)
--   [Acknowledgments](#acknowledgments)
+-   [Libraries](#libraries-used)
 
 ## Project Overview
 
@@ -32,7 +34,7 @@ This project explores the application of reinforcement learning to build a music
 1.  Clone the repository:
 
     ```bash
-    git clone [https://github.com/samuelsurr/music-recommendation-rl.git](https://www.google.com/search?q=https://github.com/samuelsurr/music-recommendation-rl.git)
+    git clone https://github.com/samuelsurr/music-recommendation-rl.git
     cd music-recommendation-rl
     ```
 
@@ -58,6 +60,20 @@ This project explores the application of reinforcement learning to build a music
 -   **Reward Function:** Designed to incentivize relevant song recommendations based on user interactions.
 -   **State Representation:** User profile, recent listening history, and song metadata.
 
+
+## Project Status
+
+-   [ ] Data ingestion and preprocessing.
+-   [ ] Gym environment setup.
+-   [ ] Initial RL agent implementation.
+-   [ ] Offline training with static dataset.
+-   [ ] Online training with real-time user data.
+-   [ ] Evaluation and performance analysis.
+
+
+## Known Issues
+
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
@@ -72,7 +88,7 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the MIT License.
 
-## Acknowledgments
+## Libraries Used
 
 -   TensorFlow Agents
 -   Gym
