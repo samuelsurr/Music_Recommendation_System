@@ -1,6 +1,6 @@
 # Music Recommendation System with Reinforcement Learning
 
-[![Python 3.11.9](https://img.shields.io/badge/Python-3.11.9-blue.svg)](https://www.python.org/downloads/release/python-3119/) [![TensorFlow 2.18](https://img.shields.io/badge/TensorFlow-2.18-%23FF6F00.svg)](https://www.tensorflow.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.11.9](https://img.shields.io/badge/Python-3.11.9-blue.svg)](https://www.python.org/downloads/release/python-3119/) [![TensorFlow 2.18](https://img.shields.io/badge/TensorFlow-2.18-%23FF6F00.svg)](https://www.tensorflow.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.txt)
 
 This repository contains a reinforcement learning-based music recommendation system for a music application. The system aims to learn user preferences and provide personalized song recommendations.
 
@@ -86,7 +86,7 @@ Contributions are welcome! Please follow these steps:
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE.txt).
 
 ## Libraries Used
 
